@@ -1,0 +1,16 @@
+spring:
+ thymeleaf:
+   cache: false
+ security:
+   oauth2:
+     client:
+       registration:
+         okta:
+           client-id: 0oa228kvqyDm2xz80357
+           client-secret: 0sqAdcn8CqllgwOMvv7Ipp_8Dt1_nzPapJ9rbMxD
+       provider:
+         okta:
+           authorization-uri: https://dev-799660.okta.com/oauth2/default/v1/authorize
+           token-uri: https://dev-799660.okta.com/oauth2/default/v1/token
+           user-info-uri: https://dev-799660.okta.com/oauth2/default/v1/userinfo
+           jwk-set-uri: https://dev-799660.okta.com/oauth2/default/v1/keys
